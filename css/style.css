@@ -46,16 +46,13 @@ body{
    
     background: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg') ;
     background-color: hsla(185, 75%, 39%,0.8);
-    background-position: top -50% left 190%, bottom -50%  right 190% ;
-    background-size: 600px , 600px;
-    background-attachment: fixed;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     background-repeat: no-repeat, no-repeat;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 1.125rem;
     min-height: 100vh;
     padding: 1rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -118,15 +115,5 @@ body{
     letter-spacing: 1px;
     font-weight: var(--fw-weight-light);
 }
-footer{
-  padding: 2rem;
-  font-size: 1.1rem;
-}
-footer a{
-  color: #fff;
-}
-@media(min-width:500px){
-  body{
-    background-position: top -470% left 0%, bottom -470%  right 0% ;
-  }
-}
+ 
+ 
