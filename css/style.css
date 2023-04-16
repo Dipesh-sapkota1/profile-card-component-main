@@ -45,7 +45,7 @@ a {
 body{
    
     background: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg') ;
-    background-color: hsla(185, 75%, 39%,0.8);
+    background-color: hsla(185, 75%, 39%);
     background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     background-repeat: no-repeat, no-repeat;
     font-family: 'Kumbh Sans', sans-serif;
